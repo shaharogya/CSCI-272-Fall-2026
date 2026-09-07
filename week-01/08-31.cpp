@@ -34,7 +34,7 @@ int main(){
 
 double divide (double a = 8, double b = 4){
     /*predefining the parameter 
-    for cases when the parameter doesn't pass from the main()*/
+    for cases when the parameter doesn't pass from the main(), or for tests*/
 
     if (b == 0){
         cout << "Cant be 0!" << endl;
