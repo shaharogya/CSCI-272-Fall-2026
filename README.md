@@ -1,6 +1,6 @@
 # CSCI 272 — Object-Oriented Programming in C++
 
-This repository contains my C++ practice work for CSCI 272, Fall 2026.
+This repository contains Arogya Shah's C++ practice work for CSCI 272, Fall 2026.
 
 ## Organization
 
