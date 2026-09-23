@@ -92,15 +92,15 @@ void test (int* p){
 }
 */ 
 
-int global_var;
+int global_var = 77;
 
-void changepointer (int** p){  //for definition int* (*p)
+void changePointer(int** p){  //for definition int* (*p)
    //(*) represents the original pointer
    //changed so that it points to global_var 
-    *p = &global_var = 77;
+    *p = &global_var;
 }
 
-int main{
+int main(){
     int local_var = 15;
     int *p_to_var = &local_var; 
 
