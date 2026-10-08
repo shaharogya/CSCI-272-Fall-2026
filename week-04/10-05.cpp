@@ -12,22 +12,23 @@ class Car{
     //public, private, protected
     public:
 
+    //(Attribute) Data members
     string color; //data-type variable-name
     string brand;
     string model;
     int year;
 
-    //member function
+    //(Behaviours) member function 
     void startEngine(){
-        cout << "Engine started" << endl;
+        cout << brand + ' ' + model <<  " Engine started" << endl;
     }
     void stopEngine(){
-        cout << "Engine stopped" << endl;
+        cout << brand + ' ' + model << " Engine stopped" << endl;
     }
 
     void showInfo(){
         cout << "Brand: " << brand << endl;
-        cout << " Color: " << color << endl;
+        cout << "Color: " << color << endl;
         cout << "Year: " << year << endl;
         cout << "Model: " << model << endl;
     }
@@ -54,5 +55,5 @@ int main(){
     car1.startEngine();
     car2.startEngine();
 
-    Car showInfo();
+    car1.showInfo();
 }
