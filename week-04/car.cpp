@@ -27,6 +27,14 @@ Car::Car(string b, string m, int y){
     year = y;
 }
 
+// Car::Car4(string b, string m, int y){
+//     cout << "\nParameterized constructor called." << endl;
+
+//     brand = b;
+//     model = m;
+//     year = y;
+// }
+
 //copy constructor
 Car::Car(const Car& other){
     cout << "\nCopy constructor called" << endl;
