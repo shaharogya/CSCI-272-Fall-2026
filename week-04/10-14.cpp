@@ -93,35 +93,36 @@ int main(){
 
     //Oct:
     cout << oct << "Octal: " << number << endl;
-
-    //==================================
-    //Project development
-
-    string studentname = "Captain X";
-    string c = "ENG 101";
-    int r = 3;
-    double gp = 4.0;
-    double tp = gp * r;
-
-    cout << "\n================= Student Grade Report =================" << endl;
-    cout << "Student:  " << studentname << "\n";
-    cout << "\n";
-
-    cout << setw(26) << left << "Course"
-         << setw(10) << right << "Credits"
-         << setw(10) << right << "GradePts"
-         << setw(10) << right << "TotalPts\n";
-    cout << setfill('-') << setw(56) << "" << endl;
-    cout << setfill(' ');
-    
-    cout << setw(26) << left << c
-         << setw(10) << right << r
-         << setw(10) << right << gp
-         << setw(10) << right << tp;
-    cout << setfill(' ');
-
-    cout << setfill('-') << setw(56) << "" << endl;
-    cout << setw(26) << left << "Total Credits: ";
-
 }
+    // //==================================
+    // //Project development
 
+    // string studentname = "Captain X";
+    // string c = "ENG 101";
+    // int r = 3;
+    // double gp = 4.0;
+    // double tp = gp * r;
+
+    // cout << "\n================= Student Grade Report =================" << endl;
+    // cout << "Student:  " << studentname << "\n";
+    // cout << "\n";
+
+    // cout << setw(26) << left << "Course"
+    //      << setw(10) << right << "Credits"
+    //      << setw(10) << right << "GradePts"
+    //      << setw(10) << right << "TotalPts\n";
+    
+         
+    // cout << setfill(' ');
+    
+    // cout << setw(26) << left << c
+    //      << setw(10) << right << r
+    //      << setw(10) << right << gp
+    //      << setw(10) << right << tp;
+    // cout << setfill(' ');
+
+    // cout << setfill('-') << setw(56) << "" << endl;
+    // cout << setw(26) << left << "Total Credits: ";
+
+
+ 
